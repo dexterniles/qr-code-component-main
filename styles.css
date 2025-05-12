@@ -1,5 +1,62 @@
+@font-face {
+    font-family: "Outfit-Variable";
+    src: url(fonts/Outfit/Outfit-VariableFont_wght.ttf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #d5e1ef;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100dvh;
+    font-family: "Outfit-Variable";
+}
+
+.container {
+    background-color: white;
+    padding: 0.75em;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    width: 300px;
+    height: auto;
+    border-radius: 1em;
+}
+
+img {
+    width: 100%;
+    height: auto;
+    border-radius: 0.5em;
+}
+
+.text-container {
+    padding: 1em;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 0.75em;
+}
+
+h1 {
+    font-size: 1.25em;
+}
+
+p {
+    font-size: 0.75em;
+    color: #9ca2a9;
+}
+
 .attribution { 
     font-size: 11px; text-align: center; 
+    
 }
 
 .attribution a {

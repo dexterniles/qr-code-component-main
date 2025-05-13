@@ -26,7 +26,7 @@ body {
     align-items: center;
     justify-content: space-between;
     flex-direction: column;
-    width: 300px;
+    width: 275px;
     height: auto;
     border-radius: 1em;
     box-shadow: 0px 0px 10px 1px #b8b8b8;
@@ -39,7 +39,7 @@ img {
 }
 
 .text-container {
-    padding: 1em;
+    padding: 0.75em;
     display: flex;
     flex-direction: column;
     text-align: center;
@@ -47,7 +47,7 @@ img {
 }
 
 h1 {
-    font-size: 1.25em;
+    font-size: 1em;
 }
 
 p {
